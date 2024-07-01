@@ -9,7 +9,7 @@ import wifiConnection         # Contains functions to connect/disconnect from Wi
 
 # BEGIN SETTINGS
 # These need to be change to suit your environment
-DATA_INTERVAL = 40000       # milliseconds, every 40 sec
+DATA_INTERVAL = 60000       # milliseconds, every 60 sec
 last_data_sent_ticks = 0    # milliseconds
 led = Pin("LED", Pin.OUT)   # On-board LED pin initialization for Raspberry Pi Pico W
 #led = Pin(15, Pin.OUT)     # external led
